@@ -8,6 +8,5 @@ def room(request, room_name):
     context={
         'room_name': room_name,
     }
-    
     return render(request, 'chat.html', context)
 # Create your views here.
